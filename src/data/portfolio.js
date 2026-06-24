@@ -144,6 +144,8 @@ export const PROJECTS = [
     title: "AI B2B Outreach Pipeline",
     video: b2b,
     type: "Legendary Quest",
+    github: "https://github.com/shubhanshi01/ColdEmailOutreach",
+    live: "https://cold-email-outreach-7yrg.vercel.app/",
     date: "Jun 2026",
     summary:
       "End-to-end AI outbound sales platform. 1 seed company → 20–100+ lookalike companies + 50+ decision-makers + 100+ personalized cold emails per run.",
@@ -160,6 +162,8 @@ export const PROJECTS = [
     title: "Advanced Persistent Threat Detection",
     image: image1,
     type: "Research Quest",
+    github: "https://github.com/shubhanshi01/Advanced-Persistent-Threat-Detection-Using-Temporal-Graph-Neural-Networks",
+    live: "https://docs.google.com/document/d/1N1NTNWDLcOXx_2kZMD1IGiGucGTNiSIX/edit?usp=sharing&ouid=102382985995205001588&rtpof=true&sd=true",
     date: "Oct 2025",
     summary:
       "Peer-reviewed Domain-Adaptive Graph Transformer (DAOGT) for multi-stage APT detection. 98% accuracy, 0.96 F1 on CICIDS2017, –20% false positives.",
@@ -176,6 +180,8 @@ export const PROJECTS = [
     title: "OrderYum — Food Delivery App",
     video: orderyum,
     type: "Side Quest",
+    github: "https://github.com/shubhanshi01/OrderYum",
+    live: "order-yum.vercel.app",
     date: "Dec 2024",
     summary:
       "Cross-platform food delivery app with secure auth, 10+ API integrations and Firebase backend. 30% lower transaction latency, 8 reusable UI components.",

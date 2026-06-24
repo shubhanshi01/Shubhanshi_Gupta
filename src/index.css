@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Base styles */
+body {
+  margin: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Theme variables */
+:root {
+  --background: #fff1f5; /* light pink */
+  --foreground: #111827; /* dark text */
+  --border: #fbcfe8; /* soft pink border */
+  --radius: 0.5rem;
+}
+
+/* Dark mode */
+.dark {
+  --background: #1a1a1a;
+  --foreground: #ffffff;
+  --border: #333333;
+}
+
+/* Apply theme */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+* {
+  border-color: var(--border);
+}
+
+/* Debug wrapper */
+[data-debug-wrapper="true"] {
+  display: contents !important;
+}
+
+[data-debug-wrapper="true"] > * {
+  margin: inherit;
+  padding: inherit;
+  gap: inherit;
+  border-width: inherit;
+  border-style: inherit;
+  border-color: inherit;
+}

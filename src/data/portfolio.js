@@ -1,6 +1,7 @@
 import orderyum from "../assets/orderyum.mp4";
 import b2b from "../assets/b2b.mp4"
 import image1 from "../assets/image2.png"
+import jobtracker from "../assets/jobtracker.mp4"
 export const SHUBHANSHI = {
   name: "Shubhanshi Gupta",
   firstName: "Shubhanshi",
@@ -193,6 +194,24 @@ export const PROJECTS = [
     rewards: ["React Native", "Expo", "Firebase"],
     accent: "#e36a6a",
   },
+  {
+    id: "p4",
+    title: "Job tracker App",
+    video: jobtracker,
+    type: "Side Quest",
+    github: "https://github.com/shubhanshi01/Jobtracker",
+    live: "https://job-tracker-o344.vercel.app/",
+    date: "July 2024",
+    summary:
+      "A job application management platform designed to help users organize, track, and streamline their job search process efficiently ",
+    objectives: [
+     "Built an intuitive dashboard to track application status, deadlines, and interview progress",
+     "Developed reusable and responsive UI components for a seamless user experience"
+    ],
+    rewards: ["typescript"],
+    accent: "#e36a6a",
+  },
+  
 ];
 
 export const EXPERIENCE = [
